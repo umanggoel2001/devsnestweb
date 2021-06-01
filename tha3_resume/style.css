@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+
+
+
+.main{
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    grid-auto-rows:minmax(30px,auto);
+    margin: 8%;
+    font-family: 'Roboto Mono', monospace;
+
+
+    
+
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+
+
+}
+.main >div{
+    padding: 30px;
+
+}
+
+
+.main >div:nth-child(odd){
+   
+}
+
+.ig{
+    border-radius: 50%;
+    margin-left:40px;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+
+.box1{
+    background-color: #cbccc6;
+   
+    
+
+
+}
+
+
+.box2{
+    background-color: #606160;
+    
+}
+
+
+.box3{
+    background: linear-gradient(to bottom, #cbccc6 0%, #f3f5e9 100%);
+}
+
+.box4{
+    background: linear-gradient(to bottom, #606160 0%, #323332 100%);
+}
+
+.box5{
+     background-color: #f3f5e9;
+}
+
+
+.box6{
+    background-color: #323332;
+}
+
+.box7{
+    background-color: #f3f5e9;  
+
+}
+
+.box8{
+    background-color: #688a5e;
+    color:#323332;
+}
+
+.Aa{
+  color: #070340;
+}
+
+.Bb{
+   color: #070340;
+}
+.C{
+    color:#09026b;
+    
+}
+.D{
+
+}
+.f{
+    color:#688a5e;
+}
+
+.ff{
+    color:#f3f5e9;
+}
+
