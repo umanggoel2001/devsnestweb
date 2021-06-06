@@ -1,0 +1,121 @@
+body{
+    text-align: center;
+    background-color: black;
+}
+.clock{
+
+
+    color: #fff;
+     
+    box-shadow: #FF6700 0px 0px 30px,
+            grey 0px 0px 300px  ;
+
+
+
+
+   
+    
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color:black;
+    border:2px solid #FF6700;
+    padding: 20px;
+    position: relative;
+    
+   
+    
+
+}
+
+.tiger{
+    height: 250px;
+    background-repeat: no-repeat;
+    position: absolute; 
+    background-image:url(./22.png);
+    width: 500px;
+    height: 500px;
+    padding: auto;
+    background-size: cover;
+    
+
+    border-radius: 50%;
+    color: #fff;
+ 
+  
+}
+
+
+
+.sec, .min, .hour{
+    line-height: 45px;
+    position: relative;
+    transform-origin: bottom;
+
+}
+
+
+
+
+  .sec{
+    height:250px;
+    width:3px;
+    background:white;
+    opacity: 0.6;
+    box-shadow: #FF6700 0px 0px 3px;
+    z-index:3;
+    margin-left:250px;
+    animation:sec_anim 60s linear infinite;
+    
+    
+
+
+  }
+
+  .min{
+       
+    height:250px;
+    width:6px;
+    background-color: white;
+    opacity:0.8;
+    z-index:2;
+    top:-250px;
+    animation: min_anim 600s linear infinite;
+    margin-left:250px; 
+
+      
+
+      
+  }
+  .hour{
+      height: 180px;
+        width: 8px;
+        left: 250px;
+        top:-430px;
+        background-color: white;
+        opacity: 0.8;
+        
+        z-index: 3;
+    animation:hour_anim 60000s linear infinite ;
+
+
+  }
+  @keyframes sec_anim {
+     from{transform:rotateZ(0deg);}
+     to{transform:rotateZ(360deg);}  
+  }
+  @keyframes min_anim{
+      from{transform: rotateZ(0deg);}
+      to { transform: rotateZ(360deg);}
+
+  }
+  @keyframes hour_anim {
+      from{transform: rotateZ(0deg);}
+      to {transform: rotateZ(360deg);}
+  }
+  
+  
+
+
+
