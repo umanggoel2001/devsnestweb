@@ -1,0 +1,36 @@
+body{
+    margin: 0%;
+  /* background-color: black; */
+  background-image: url('7.jpg');
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+}
+table{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-top: 180px;
+    margin-bottom:50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: url('6.jpg');
+    border:10px solid black;
+}  
+
+.row{
+    
+}
+.col{
+  
+    background-color: black;
+    /* border-radius: 80%; */
+    height: 15px;
+    width: 15px;
+    
+
+}
+.t{
+    opacity:0;
+}
+.col:hover{
+    background-color: rgb(196, 189, 189);
+    height: 16px;
+    width: 16px;
