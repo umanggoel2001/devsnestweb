@@ -5,7 +5,7 @@ const change= document.querySelector('.change');
 
 const snail=document.querySelector('.snail');
 const btn=document.querySelector('.btn-contain');
-
+//on click
 function cli(){
 	window.location.reload();
 }
