@@ -5,6 +5,12 @@ const change= document.querySelector('.change');
 
 const snail=document.querySelector('.snail');
 const btn=document.querySelector('.btn-contain');
+
+function cli(){
+	window.location.reload();
+}
+
+
 b.addEventListener('click',()=>{
 
 	snail.style.visibility="visible";
@@ -23,7 +29,8 @@ xhr.addEventListener("readystatechange", function () {
 		console.log(check);
 		setTimeout(()=>{
 			snail.style.display="none";
-			change.innerHTML=`<h2>Love percentage: ${check.percentage}%</h2><h2>${check.result}</h2>`
+			change.innerHTML=`<h2>Love percentage: ${check.percentage}%</h2><h2>${check.result}</h2><br>
+		<button onclick=cli()>Try Again</button>`
 
 		},2000);
 		
