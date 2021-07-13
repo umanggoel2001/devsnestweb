@@ -1,0 +1,61 @@
+
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* styling the card */
+.App{
+    color:bisque;
+    height: 100vh;
+    width: 100vw; 
+
+     display: flex;
+    flex-direction: row 
+ }
+.card{
+    border: 1px solid gray;
+    padding: 10px 20px;
+    /* display: inline-block; */
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+   
+    /* margin: auto; */
+    background-color: #855E42;
+    width: 380px;
+    height:430px;
+    margin-top: 90px;
+    margin-left: 50px;
+
+}
+.card img{
+    width: 100%;
+}
+ .box{
+     
+    width: 50px;
+    height: 50px;
+
+}
+
+.card2{
+    border: 15px solid #800000;
+    /* padding: 10px 20px; */
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: 430px;
+    background-color:#855E42;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+}
+.row{
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.row:nth-child(even) .box:nth-child(even) , .row:nth-child(odd) > .box:nth-child(odd)
+{
+    background-color: bisque;
+    
+}
