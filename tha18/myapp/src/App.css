@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  display: grid;
+  justify-content: center;
+
+}
+.board{
+
+
+  margin-top: 100px;
+  border: 2px solid #5B0E2D;
+}
+.white{
+  background-color: #F4A896;
+  height: 50px;
+  width: 50px;
+}
+
+.black{
+  background-color: #358597;
+  height: 50px;
+  width: 50px;
+}
+.wrow{
+  display: flex;
+}
+.brow{
+  display: flex;
+}
