@@ -8,6 +8,9 @@
 html,body{
     height: 100vh;
     width: 100vw;
+    background-image: url(./172084.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .temp{
@@ -26,7 +29,7 @@ html,body{
 
 .mem{
     text-align: center;
-   
+  
 }
 
 .mem img{
@@ -42,6 +45,7 @@ html,body{
 
 .heading{
     text-align: center;
+    color: white;
 }
 
 .mem button{
