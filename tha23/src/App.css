@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+
+
+h3{
+    margin-left:250px;
+    color: rgba(26, 26, 31, 0.411);
+    font-size: 20px;
+
+}
+li{
+list-style: none;
+margin-left: 50px;
+font-size:30px;
+}
