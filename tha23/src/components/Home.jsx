@@ -24,22 +24,29 @@ return (
         <Paper elevation={3} >
         <h3> Add List</h3>   
         {/* <input type="text" /> */}
-        <TextField id="outlined-basic" label="Outlined" variant="outlined"  onChange={(e)=>{setValue(e.target.value) } } />
+        <TextField id="outlined-basic" label="Outlined" variant="outlined" value={value}  onChange={(e)=>{setValue(e.target.value) } } />
     
          
-         <Button variant="contained" color="secondary" onClick={()=>{addlist.add(value) }}>
+         <Button variant="contained" color="secondary" onClick={()=>{
+             addlist.add(value);
+        setValue("");
+        }}>
+
          AddItem
 </Button>
 
          <ul>
+
             { addlist.item.map((i,index)=>(
                 <li key={index}>{i} <Fab color="primary" aria-label="add" onClick={()=>{addlist.clr(index)}}>
-                {/* <AddIcon /> */}
+              
                 X
                 </Fab>
                 </li> 
-                
-            ))}
+           
+            ))
+            }
+            
          </ul>
          <Button variant="contained" color="primary"  onClick={()=>{addlist.c()}}>Clear</Button>
         </Paper>
