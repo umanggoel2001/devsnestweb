@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/devsnestweb/tree/master/tha29/static/css/main.ece72e34.chunk.css",
+    "main.js": "/devsnestweb/tree/master/tha29/static/js/main.5738dee4.chunk.js",
+    "main.js.map": "/devsnestweb/tree/master/tha29/static/js/main.5738dee4.chunk.js.map",
+    "runtime-main.js": "/devsnestweb/tree/master/tha29/static/js/runtime-main.0cbbbd0a.js",
+    "runtime-main.js.map": "/devsnestweb/tree/master/tha29/static/js/runtime-main.0cbbbd0a.js.map",
+    "static/js/2.96371a43.chunk.js": "/devsnestweb/tree/master/tha29/static/js/2.96371a43.chunk.js",
+    "static/js/2.96371a43.chunk.js.map": "/devsnestweb/tree/master/tha29/static/js/2.96371a43.chunk.js.map",
+    "index.html": "/devsnestweb/tree/master/tha29/index.html",
+    "static/css/main.ece72e34.chunk.css.map": "/devsnestweb/tree/master/tha29/static/css/main.ece72e34.chunk.css.map",
+    "static/js/2.96371a43.chunk.js.LICENSE.txt": "/devsnestweb/tree/master/tha29/static/js/2.96371a43.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0cbbbd0a.js",
+    "static/js/2.96371a43.chunk.js",
+    "static/css/main.ece72e34.chunk.css",
+    "static/js/main.5738dee4.chunk.js"
+  ]
+}
