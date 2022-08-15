@@ -1,7 +1,7 @@
 
 
 BOOK YOUR SEATS--
-![myimg](Screenshot (668).png)
+
 
 NOTE: BEAWARE- ITS COVID TIME
 TECH USED-  HTML---CSS---JS
